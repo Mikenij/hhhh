@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>工作经验与收入关系的可视化</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body background="image/pexels-lumn-167699.jpg">
+    <h1 style="text-align:center">
+        工作经验与收入关系的可视化
+    </h1>
+    <div id="ffe398f8a4a043988b97293d0b6462a7" class="chart-container" style="width:1400px; height:550px; "></div>
+    <script>
+        var chart_ffe398f8a4a043988b97293d0b6462a7 = echarts.init(
+            document.getElementById('ffe398f8a4a043988b97293d0b6462a7'), 'white', {renderer: 'canvas'});
+        var option_ffe398f8a4a043988b97293d0b6462a7 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "scatter",
+            "name": ">50k",
+            "symbolSize": 10,
+            "data": [
+                [
+                    "\u5de5\u4f5c\u5e74\u9f84",
+                    0
+                ],
+                [
+                    1,
+                    0
+                ],
+                [
+                    2,
+                    6
+                ],
+                [
+                    3,
+                    16
+                ],
+                [
+                    4,
+                    40
+                ],
+                [
+                    5,
+                    27
+                ],
+                [
+                    6,
+                    62
+                ],
+                [
+                    7,
+                    60
+                ],
+                [
+                    8,
+                    33
+                ],
+                [
+                    9,
+                    1675
+                ],
+                [
+                    10,
+                    1387
+                ],
+                [
+                    11,
+                    361
+                ],
+                [
+                    12,
+                    265
+                ],
+                [
+                    13,
+                    2221
+                ],
+                [
+                    14,
+                    959
+                ],
+                [
+                    15,
+                    423
+                ],
+                [
+                    16,
+                    306
+                ]
+            ],
+            "label": {
+                "show": true,
+                "position": "right",
+                "margin": 8
+            }
+        },
+        {
+            "type": "scatter",
+            "name": "<=50k",
+            "symbolSize": 10,
+            "data": [
+                [
+                    "\u5de5\u4f5c\u5e74\u9f84",
+                    0
+                ],
+                [
+                    1,
+                    51
+                ],
+                [
+                    2,
+                    162
+                ],
+                [
+                    3,
+                    317
+                ],
+                [
+                    4,
+                    606
+                ],
+                [
+                    5,
+                    487
+                ],
+                [
+                    6,
+                    871
+                ],
+                [
+                    7,
+                    1115
+                ],
+                [
+                    8,
+                    400
+                ],
+                [
+                    9,
+                    8826
+                ],
+                [
+                    10,
+                    5904
+                ],
+                [
+                    11,
+                    1021
+                ],
+                [
+                    12,
+                    802
+                ],
+                [
+                    13,
+                    3133
+                ],
+                [
+                    14,
+                    764
+                ],
+                [
+                    15,
+                    153
+                ],
+                [
+                    16,
+                    107
+                ]
+            ],
+            "label": {
+                "show": true,
+                "position": "right",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ">50k",
+                "<=50k"
+            ],
+            "selected": {
+                ">50k": true,
+                "<=50k": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "\u5de5\u4f5c\u5e74\u9f84",
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 20,
+        "max": 1000,
+        "inRange": {
+            "symbolSize": [
+                20,
+                50
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "hoverLink": true,
+        "orient": "vertical",
+        "padding": 5,
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    }
+};
+        chart_ffe398f8a4a043988b97293d0b6462a7.setOption(option_ffe398f8a4a043988b97293d0b6462a7);
+    </script>
+</body>
+</html>
